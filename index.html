@@ -116,7 +116,7 @@
       <section class="section offer" id="oferta">
         <div class="container offer__box">
           <div class="offer__content">
-            <p class="eyebrow eyebrow--light">Oferta especial de lançamento</p>
+            <p class="eyebrow eyebrow--light">Oferta especial</p>
             <h2>95 projetos para seu filho criar, aprender e se divertir longe das telas</h2>
             <p>4 coleções completas em um único acesso</p>
             <p class="price"><small>R$</small>29<span>,90</span></p>
@@ -171,18 +171,5 @@
       </section>
     </main>
 
-    <a class="mobile-cta" href="https://pay.cakto.com.br/9p8it7a_1181604" target="_blank" rel="noopener"><span>95 projetos por</span><strong>R$ 29,90</strong><b>Quero agora →</b></a>
-    <script>
-      const hero = document.querySelector('.hero');
-      const mobileCta = document.querySelector('.mobile-cta');
-
-      if (hero && mobileCta) {
-        const toggleMobileCta = ([entry]) => {
-          mobileCta.classList.toggle('mobile-cta--hidden', entry.isIntersecting);
-        };
-
-        new IntersectionObserver(toggleMobileCta, { threshold: 0.1 }).observe(hero);
-      }
-    </script>
   </body>
 </html>
