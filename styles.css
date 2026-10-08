@@ -4727,3 +4727,8 @@ body {
         box-shadow: 0 0 0 7px #BFD7EB, 0 16px 30px #21364D24;
     }
 }
+
+.value-list__bonus b {
+    color: #4D83B3 !important;
+    text-decoration: none;
+}
