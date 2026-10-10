@@ -4728,6 +4728,26 @@ body {
     }
 }
 
+.offer .button--yellow {
+    will-change: transform;
+}
+
+.offer .button--yellow:hover,
+.offer .button--yellow:focus-visible {
+    animation: none;
+}
+
+@keyframes offer-cta-pulse {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.018);
+    }
+}
+
 .value-list__bonus b {
     color: #4D83B3 !important;
     text-decoration: none;
